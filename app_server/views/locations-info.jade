@@ -1,0 +1,83 @@
+extends layout
+
+block content
+  .row.page-header(style="margin-bottom: 20px;")
+    .col-lg-12
+      h1(style="margin-top: 20px;") Physics Wallah 
+
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+            span.glyphicon.glyphicon-star-empty
+          p jodimetla
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Opening hours
+            .panel-body
+              p Monday - Saturday : 08:00am - 6:00pm
+              p Sunday : 7:00am - 10:00am
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Courses
+            .panel-body
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;JEE MAINS
+              | &nbsp;
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;JEE ADV
+              | &nbsp;
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;NEET
+              | &nbsp;
+        .col-xs-12.col-sm-6.location-map
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Location map
+            .panel-body
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30450.780922741902!2d78.36045737431638!3d17.443068600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91615c54392d%3A0x315e9a0425d0e92c!2sPhysics%20Wallah%20Vidyapeeth%20Madhapur%20%7C%20IIT%20JEE%2C%20NEET%20%26%20Foundation%20Coaching!5e0!3m2!1sen!2sin!4v1727375778657!5m2!1sen!2sin" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/location/review/new') Add review
+              h2.panel-title Customer reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                    span.reviewAuthor Thurupu Hemanth
+                    small.reviewTimestamp 16 July 2023
+                  .col-xs-12
+                    p What a great learning experience,I got Free seat in Anurag University.
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    span.reviewAuthor Chintu
+                    small.reviewTimestamp 16 July 2023
+                  .col-xs-12
+                    p I got seat in NIT Warangal.
+    .col-xs-12.col-md-3
+      p.lead
+        | Physics Wallah is on TEACHER learning website is a comprehensive online platform designed to empower educators with the tools and resources they need to excel in the classroom. We offer a curated collection of lesson plans, professional development courses, and community forums to support teachers in delivering engaging and effective instruction. Whether you're a seasoned veteran or just starting your teaching career, our website provides the resources and support to help you grow professionally and inspire your students.
+        p 
